@@ -32,7 +32,9 @@ static void log_error_if_nonzero(const char *message, int error_code)
 bool mqtt_pub(char const * topic, char const * data)
 {
   int msg_id = esp_mqtt_client_publish(client, topic, data, 0, 0, 0);
-  ESP_LOGI(TAG, "sent publish successful, msg_id=%d", msg_id);
+  if(msg_id == -1) {
+    ESP_LOGI(TAG, "failed to sent mqtt message to topic '%s', msg_id=%d", topic, msg_id);
+  }
   return (msg_id != -1);
 }
 

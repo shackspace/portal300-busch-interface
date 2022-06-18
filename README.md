@@ -1,4 +1,4 @@
-> **WARNING:** THIS REPOSITORY IS ARCHIVED. DEVELOPMENT CONTINUES IN THE [PORTAL300](/shackspace/portal300) monorepo.
+> **WARNING:** THIS REPOSITORY IS ARCHIVED. DEVELOPMENT CONTINUES IN THE [PORTAL300](https://github.com/shackspace/portal300) monorepo.
 
 # _Busch Welcome_ Interface for Portal300
 

@@ -1,3 +1,5 @@
+> **WARNING:** THIS REPOSITORY IS ARCHIVED. DEVELOPMENT CONTINUES IN THE [PORTAL300](/shackspace/portal300) monorepo.
+
 # _Busch Welcome_ Interface for Portal300
 
 This repository implements an interface to the [Busch Welcome](https://www.busch-jaeger.de/busch-welcome) installed in the Ulmer Straße 300.
